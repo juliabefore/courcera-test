@@ -11,9 +11,6 @@ function LunchCheckController($scope) {
   $scope.len = 0;
 
   $scope.separatedList = function () {
-      // var list = $scope.list;
-      // var arrayOfStrings = list.split(',');
-      // $scope.len = arrayOfStrings.length;
       $scope.len = $scope.list.split(',').length;
     };
 
