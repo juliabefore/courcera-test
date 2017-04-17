@@ -1,0 +1,7 @@
+<br><br><br>
+<ul>
+<li ng-repeat="item in itemCtrl.items">
+{{item.short_name}}, {{item.name}}, {{item.description}}
+<button ng-click="itemCtrl.onRemove({index: $index});" class="btn btn-primary">Don't want this one!</button>
+</li>
+</ul>
